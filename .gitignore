@@ -1,0 +1,19 @@
+# Drupal 8 files to ignore
+
+# Ignore core and vendor when managing dependencies with Composer.
+core
+vendor
+
+# Ignore configuration files that may contain sensitive information.
+public_html/sites/*/settings*.php
+public_html/sites/*/services*.yml
+
+# Ignore paths that contain user-generated content.
+public_html/sites/*/files
+public_html/sites/*/private
+
+# Ignore SimpleTest multi-site environment.
+public_html/sites/simpletest
+
+# Ignore vim files
+*.swp
