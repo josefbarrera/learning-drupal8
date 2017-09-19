@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the Learning theme.
+ */
+
+function learning_preprocess_page(&$variables)
+{
+    if ($variables['is_front']) {
+        $variables['#attached']['library'][] = 'learning/fancy-effect';
+    }
+}

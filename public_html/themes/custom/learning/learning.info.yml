@@ -1,0 +1,7 @@
+name: Learning
+description: My theme for learning Drupal 8
+type: theme
+core: 8.x
+libraries:
+  - learning/global-css
+  - learning/global-js
