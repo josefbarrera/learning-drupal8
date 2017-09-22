@@ -5,3 +5,9 @@ core: 8.x
 libraries:
   - learning/global-css
   - learning/global-js
+
+# Define regions
+regions:
+  header: 'Header'
+  content: 'Main content'
+  footer: 'Footer'
