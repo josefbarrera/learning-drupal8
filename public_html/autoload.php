@@ -11,4 +11,7 @@
  * @see core/modules/statistics/statistics.php
  */
 
+// commented out code for sonarqube to complain
+// $this = 'that';
+
 return require __DIR__ . '/vendor/autoload.php';
